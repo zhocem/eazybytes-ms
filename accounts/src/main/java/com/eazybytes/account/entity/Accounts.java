@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.entity;
+package com.eazybytes.account.entity;
 
 
 import jakarta.persistence.Column;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Account extends BaseEntity {
+public class Accounts extends BaseEntity {
 
     @Id
     @Column(name = "account_number")
@@ -25,5 +25,5 @@ public class Account extends BaseEntity {
     private String branchAddress;
 
     @Column(name = "customer_id")
-    private int customerId;
+    private long customerId;
 }

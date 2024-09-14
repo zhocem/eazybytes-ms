@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.entity;
+package com.eazybytes.account.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
