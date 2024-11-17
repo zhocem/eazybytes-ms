@@ -8,8 +8,7 @@ import lombok.Data;
         name = "Response",
         description = "Schema to hold successful response information"
 )
-@Data
-@AllArgsConstructor
+@Data @AllArgsConstructor
 public class ResponseDto {
 
     @Schema(
@@ -20,6 +19,6 @@ public class ResponseDto {
     @Schema(
             description = "Status message in the response"
     )
-    private String statusMessage;
+    private String statusMsg;
 
 }
